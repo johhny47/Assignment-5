@@ -36,8 +36,8 @@ document.getElementById('donate-now3').addEventListener('click',function(event)
     const div =document.createElement('div')
     div.className="border-2 border-inherit p-5 rounded-xl"
     div.innerHTML =`
-          <p class='text-xl text-black font-bold'> ${addBalanceNumber3}  ${place3} </p>
-          <p >${new Date().toLocaleDateString()} </p>
+          <p class='text-xl text-black font-bold'> ${addBalanceNumber3}BDT  ${place3} </p>
+          <p >${now} </p>
     `
     const hitoryHeading=document.getElementById('hero-history')
     hitoryHeading.appendChild(div)
